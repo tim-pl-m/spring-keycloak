@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.quarkus.HelloResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 78.019 s <<< FAILURE! - in com.baeldung.quarkus.HelloResourceTest
+testHelloEndpoint  Time elapsed: 76.286 s  <<< ERROR!
+java.net.ConnectException: Operation timed out (Connection timed out)
+	at com.baeldung.quarkus.HelloResourceTest.testHelloEndpoint(HelloResourceTest.java:15)
+
